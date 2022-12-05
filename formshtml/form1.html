@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+
+    <form action="Pinto" method="get">
+
+        <h2>Login</h2>
+        <label for="ilogin">Login</label>
+        <input type="text" name="login" id="ilogin"> <br>
+
+        <label for="isenha">Senha</label>
+        <input type="password" name="senha" id="isenha">
+        
+        <input type="submit" value="Entrar">
+    </form>
+
+    <form action="pintogod">
+        <h2>Cadastre-se</h2>
+        <label for="ilogin2">Login:</label> <br>
+            <input type="text" name="login" id="ilogin2"> <br><br>
+
+            <label for="igenero">Gênero:</label><br>
+            <input type="radio" name="genero" value="M" id="igenero"> Masculino <br>
+            <input type="radio" name="genero" value="F" id="igenero"> Feminino <br> <br>
+
+            <label for="iinteresses">Interesses:</label><br>
+            <input type="checkbox" name="Interesses" id="iinteresses"> Futebol <br>
+            <input type="checkbox" name="Interesses" id="iinteresses"> Basquete <br>
+            <input type="checkbox" name="Interesses" id="iinteresses"> Estudar <br>
+
+            <label for="iestado">Estados:</label> <br>
+            <select name="estados" id="iestado">
+                <option value="RJ">RJ</option>
+                <option value="SP">SP</option>
+                <option value="MG">MG</option>
+            </select> <br><br>
+
+            <label for="iobs">Observações</label> <br>
+            <textarea name="observacoes" id="iobs" cols="30" rows="5"></textarea>
+            <input type="submit" value="Cadastrar">
+    </form>
+</body>
+</html>
