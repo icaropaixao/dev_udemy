@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header div.logo{
+    margin: auto;
+    margin-top: 30px;
+    min-width: 320px;
+    max-width: 1000px;
+}
+
+header div.mainimg{
+    margin: auto;
+    margin-top: 2;
+    margin-bottom: 2;
+    min-width: 320px;
+    max-width: 1000px;
+}
+
+nav{
+    margin-left: 80%;
+    margin-bottom: 20px;
+}
+
+main{
+    margin: auto;
+    min-width: 320px;
+    max-width: 1000px;
+}
